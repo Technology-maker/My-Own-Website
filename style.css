@@ -1,0 +1,115 @@
+* {
+    color: aqua;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(./wallpapersden.com_tree-alone-dark-evening-4k_1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    color: coral;
+    display: flex;
+    padding: 18px;
+    padding-right: 40px;
+}
+
+.option {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 8px;
+
+}
+
+.option:hover {
+    font-size: larger;
+    color: #A4CAF4;
+    text-decoration: underline white;
+
+}
+
+.logo:hover {
+    color: #ABD2FA;
+}
+
+.options {
+
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+    width: 850px;
+    align-items: center;
+}
+
+.wishes {
+    text-transform: capitalize;
+    height: 40px;
+    width: 200px;
+    padding: 15px 0px 2px 20px;
+    color: #ABD2FA;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.line {
+    height: 300px;
+    width: 500px;
+    padding: 2px 10px 20px 25px;
+    font-size: medium;
+    font-family: initial;
+}
+
+.foot {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-top: 290px;
+    background-color: #050517;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.outer-foot {
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+p i {
+    font-size: large;
+    margin: 2px;
+}
+
+.foot p {
+
+    font-size: large;
+    text-transform: capitalize;
+}
+.logs:hover {
+
+    font-size: x-large;
+
+}
